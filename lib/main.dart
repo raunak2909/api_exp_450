@@ -1,3 +1,5 @@
+import 'package:api_exp_450/comment_page.dart';
+import 'package:api_exp_450/todo_page.dart';
 import 'package:flutter/material.dart';
 
 import 'home_page.dart';
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: HomePage(),
+      home: CommentPage(),
     );
   }
 }
